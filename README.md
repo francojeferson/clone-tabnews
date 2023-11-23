@@ -120,8 +120,14 @@ compara versao anterior com versao atual
 
 ===
 
-- `git commit --amend -m chore: create .gitignore`
+- `git commit --amend`
 
-emenda commit anterior com staged changes acompanhado de mensagem depois do -m (alterar conforme necessario)
+emenda commit anterior com staged changes
+
+===
+
+- `git push`
+
+empurra commit da local/branch para origin/branch
 
 ===
