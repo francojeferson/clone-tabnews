@@ -131,3 +131,10 @@ emenda commit anterior com staged changes
 empurra commit da local/branch para origin/branch
 
 ===
+
+Principle of Least Privilege
+(Princípio do Privilégio Mínimo)
+
+pra maior segurança do sistema construido é recomendavel sempre atribuir a menor quantidade de acesso, credencial ou privilegio que uma conta pode ter dentro do sistema
+
+===
