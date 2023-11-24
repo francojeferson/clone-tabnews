@@ -138,3 +138,90 @@ Principle of Least Privilege
 pra maior segurança do sistema construido é recomendavel sempre atribuir a menor quantidade de acesso, credencial ou privilegio que uma conta pode ter dentro do sistema
 
 ===
+
+Inception
+
+- 48% Muralha Tecnologia
+- 48% Muralha Negócios
+- 2% Acima da Muralha
+
+===
+
+Concepçao de projeto
+
+- Modelo organico (célula por célula)
+- Impressora 3D (camada por camada)
+
+===
+
+- Over Engineering
+- Feature Creep
+
+bola de ferro no pé do projeto se escolher impressora 3D
+
+===
+
+- Moral (o que está sentindo na hora)
+- Prática (o lixo de uns é tesouro de outros)
+
+===
+
+- Trabalhar pouco
+- Ganhar muito
+
+cerebro vem de fabrica com suporte a um calculo especial que é conseguir calcular o **saldo** das coisas -- pra entender se vale a pena continuar ou nao com o que ta sendo feito
+
+- dar 1 passo pra tras pra avançar 2 passos pra frente é saldo positivo
+- dar 10 passos pra trás pra avançar 1 passo pra frente é saldo negativo
+- quando quer fazer algo e fica patinando, nao sai do lugar, sentimento estranho, pensamentos ruins, quando chega no limite e decide executar, se embaralha todo, toma um tombo e a sensaçao que fica é horrivel
+
+===
+
+nivel 1: ser lembrado individualmente
+
+- menor custo de produçao (energia)
+- menor tempo de aquecimento (demora)
+
+nivel 2: ser lembrado em grupo
+
+- checklist
+- marca com bolinha tarefa em andamento
+- marca com check tarefa concluida
+
+nivel 3: expandir conhecimento
+
+- manual de instruçoes
+
+nivel 4: gerar metricas
+
+- barreira técnica
+- barreira de negócio
+
+===
+
+tudo ou nada: saldo de fazer nada é sempre positivo
+
+- issue de inception
+
+pegar a ideia em formato de grafo e converter pra formato linear
+
+- comer pedra
+
+quebrar a ideia em fragmentos menores
+a rachadura que se cria é imprevisivel
+github: milestones e issues
+
+===
+
+dopamina
+estagio 1: inicio
+estagio 2: progresso
+estagio 3: conclusao
+
+===
+
+.editorconfig
+
+por padrao o vscode nao sabe ler e respeitar as regras, é necessario instalar extensao EditorConfig
+
+===
