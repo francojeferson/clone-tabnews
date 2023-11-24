@@ -185,8 +185,8 @@ nivel 1: ser lembrado individualmente
 nivel 2: ser lembrado em grupo
 
 - checklist
-- marca com bolinha tarefa em andamento
-- marca com check tarefa concluida
+- marca com bolinha progresso intermediario
+- marca com check progresso completo
 
 nivel 3: expandir conhecimento
 
@@ -222,6 +222,66 @@ estagio 3: conclusao
 
 .editorconfig
 
+seguir regras de formataçao acontece **antes** de salvar o arquivo (pelo menos em sua maioria)
+
 por padrao o vscode nao sabe ler e respeitar as regras, é necessario instalar extensao EditorConfig
+
+===
+
+Prettier
+
+formatador de código opinado, com flexibilidade para customizar regras
+
+é preciso combinar regras em grupo para que o codigo fique formatado do mesmo jeito
+
+===
+
+- `npm install prettier --save-dev`
+
+instalando no manifesto o CI fica responsavel de verificar formataçao
+
+===
+
+- `"lint:check": "prettier --check ."`
+
+incluir no package.json/scripts
+
+- `npm run lint:check`
+
+lista arquivos com style issues
+
+===
+
+- `"lint:fix": "prettier --write ."`
+
+incluir no package.json/scripts
+
+- `npm run lint:fix`
+
+corrige style issues nos arquivos
+
+===
+
+instalar extensao do Prettier
+
+click settings do vscode
+
+buscar formatter
+
+definir Prettier como padrao (default formatter)
+
+buscar format on save
+
+check format on save
+
+buscar auto save
+
+desligar auto save (off)
+
+===
+
+- `git add --all`
+
+envia tudo o que está modificado na area de trabalho (workspace)
 
 ===
