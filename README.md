@@ -285,3 +285,10 @@ desligar auto save (off)
 envia tudo o que está modificado na area de trabalho (workspace)
 
 ===
+
+DNS
+
+dominios sao mentira (google.com.br, youtube.com)
+sao apelidos
+
+dominios de verdade sao IPs (internet protocol)
