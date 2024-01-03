@@ -292,3 +292,50 @@ dominios sao mentira (google.com.br, youtube.com)
 sao apelidos
 
 dominios de verdade sao IPs (internet protocol)
+
+qualquer-site.com.br está hospedado em algum lugar do mundo
+e esse algum lugar possui um IP carimbado
+
+quando seu pc pede pra acessar qualquer-site.com.br
+o navegador vai redirecionar para o IP do dominio
+
+a maravilha do DNS é esconder o IP do dominio
+e mostrar o que é o nome do dominio
+
+DNS: Domain Name System ou Sistema de Nomes de Domínio
+
+da pra entender o DNS como um grande banco de dados
+onde na primeira coluna existe o nome do dominio
+e na segunda coluna existe o IP final de onde ta o servidor de fato
+
+a ordem do fluxo parece ser:
+
+```mermaid
+flowchart LR
+  id1[(Computador)]
+  id2[(DNS)]
+  id1 --qualquer-site.com.br--> id2
+  id3[(Servidor)]
+  id2 --101.01.010.10--> id3
+  id3 --index.html--> id1
+```
+
+mas na verdade a ordem mecanica é:
+
+```mermaid
+flowchart LR
+  id1[(DNS)]:::id1
+  id2[(Computador)]:::id2
+  id3[(Servidor)]:::id3
+  id2 --qualquer-site.com.br--> id1
+  id1 --101.01.010.10--> id2
+  id2 --101.01.010.10--> id3
+  id3 --index.html--> id2
+  classDef id1 stroke:#f00
+  classDef id2 stroke:#00f
+  classDef id3 stroke:#0f0
+```
+
+o fluxo mecanico dá um passo pra trás pra poder dar dois passos pra frente
+
+===
